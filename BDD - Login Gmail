@@ -1,0 +1,13 @@
+Funcionalidade: Logar no Gmail
+Eu como usuário
+Quero fazer login an minha conta Gmail 
+Para acessar meu primeiro e-mail não vizualizado 
+
+Contexto: Acesso ao site Gmail
+Dado que acesso a iniciar sessão 
+
+Cenario: Logar com sucesso 
+Dado que estou na pagina de login no Gmail
+Quando me autentico como usuário válido 
+Então sou direcionada para minha caixa de entrada 
+
